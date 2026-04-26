@@ -17,11 +17,21 @@ else
     echo "Building libraries for platform: $EFFECTIVE_PLATFORM_NAME"
 fi
 
+if [ ! -d "SparseBox" ]; then
+    echo "SparseBox sources not found. Skipping SparseBox external build."
+    exit 0
+fi
+
 if [ -f "$HOME/.zshrc" ]; then
     source "$HOME/.zshrc"
 fi
 
 cd SparseBox
+
+if [ ! -f get_libraries.sh ]; then
+    echo "get_libraries.sh not found. Skipping SparseBox external build."
+    exit 0
+fi
 
 /bin/sh get_libraries.sh
 
