@@ -67,7 +67,6 @@
 		657BA6C12C9EDC030002FDAD /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C14BB2C2D33EC0017F279 /* FeaturedView.swift */; };
 		657BA6C22C9EDC030002FDAD /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576F8B12C33CAE200678715 /* DataExtensions.swift */; };
 		657BA6C32C9EDC030002FDAD /* TweakPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABD2D12C93D77C00DD01E8 /* TweakPath.swift */; };
-		657BA6C42C9EDC030002FDAD /* minimuxer-helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F512C955967005C8462 /* minimuxer-helpers.swift */; };
 		657BA6C52C9EDC030002FDAD /* KFD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B18D4D2C418B4A002C6276 /* KFD.swift */; };
 		657BA6C62C9EDC030002FDAD /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C14D52C2DC1200017F279 /* Repo.swift */; };
 		657BA6C72C9EDC030002FDAD /* RepoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65069B642C2E727E00A309C2 /* RepoView.swift */; };
@@ -121,8 +120,6 @@
 		6589F2172CB1E88A00F742D8 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 6589F2162CB1E88A00F742D8 /* Zip */; };
 		658EBA052C3662E100826E0B /* ExploitHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658EBA042C3662DF00826E0B /* ExploitHandler.swift */; };
 		65916F0C2C952FBC005C8462 /* MobileDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F0A2C952FBC005C8462 /* MobileDevice.swift */; };
-		65916F112C952FC4005C8462 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F0D2C952FC4005C8462 /* Backup.swift */; };
-		65916F122C952FC4005C8462 /* MBDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F0E2C952FC4005C8462 /* MBDB.swift */; };
 		65916F2A2C9530EB005C8462 /* ByteBuffer-int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F1C2C9530EB005C8462 /* ByteBuffer-int.swift */; };
 		65916F2B2C9530EB005C8462 /* ByteBuffer-conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F192C9530EB005C8462 /* ByteBuffer-conversions.swift */; };
 		65916F2C2C9530EB005C8462 /* ByteBuffer-foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F242C9530EB005C8462 /* ByteBuffer-foundation.swift */; };
@@ -143,7 +140,6 @@
 		65916F482C954C08005C8462 /* libEMProxy.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65916F422C9542E8005C8462 /* libEMProxy.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		65916F4E2C95595A005C8462 /* em_proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F4D2C95595A005C8462 /* em_proxy.swift */; };
 		65916F502C955960005C8462 /* minimuxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F4F2C955960005C8462 /* minimuxer.swift */; };
-		65916F522C955967005C8462 /* minimuxer-helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F512C955967005C8462 /* minimuxer-helpers.swift */; };
 		65916F542C95596E005C8462 /* SwiftBridgeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F532C95596E005C8462 /* SwiftBridgeCore.swift */; };
 		6595F3402C9BDC7800F00BD6 /* DirectWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6595F33F2C9BDC7600F00BD6 /* DirectWrite.swift */; };
 		65ABD2D22C93D77F00DD01E8 /* TweakPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABD2D12C93D77C00DD01E8 /* TweakPath.swift */; };
@@ -226,9 +222,6 @@
 		657F802C2C9D23EA00EA91F8 /* Wrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrappers.swift; sourceTree = "<group>"; };
 		658EBA042C3662DF00826E0B /* ExploitHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploitHandler.swift; sourceTree = "<group>"; };
 		65916F0A2C952FBC005C8462 /* MobileDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevice.swift; sourceTree = "<group>"; };
-		65916F0D2C952FC4005C8462 /* Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
-		65916F0E2C952FC4005C8462 /* MBDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDB.swift; sourceTree = "<group>"; };
-		65916F0F2C952FC4005C8462 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		65916F152C95301B005C8462 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		65916F162C9530EB005C8462 /* Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
 		65916F182C9530EB005C8462 /* ByteBuffer-aux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-aux.swift"; sourceTree = "<group>"; };
@@ -249,7 +242,6 @@
 		65916F442C9542F0005C8462 /* libimobiledevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.dylib; path = ../Libraries/libimobiledevice.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		65916F4D2C95595A005C8462 /* em_proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = em_proxy.swift; path = SparseBox/include/em_proxy.swift; sourceTree = "<group>"; };
 		65916F4F2C955960005C8462 /* minimuxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = minimuxer.swift; path = SparseBox/include/minimuxer.swift; sourceTree = "<group>"; };
-		65916F512C955967005C8462 /* minimuxer-helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "minimuxer-helpers.swift"; path = "SparseBox/include/minimuxer-helpers.swift"; sourceTree = "<group>"; };
 		65916F532C95596E005C8462 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftBridgeCore.swift; path = SparseBox/include/SwiftBridgeCore.swift; sourceTree = "<group>"; };
 		6595F33F2C9BDC7600F00BD6 /* DirectWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectWrite.swift; sourceTree = "<group>"; };
 		65ABD2D12C93D77C00DD01E8 /* TweakPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakPath.swift; sourceTree = "<group>"; };
@@ -491,9 +483,7 @@
 		65916F102C952FC4005C8462 /* SparseRestore */ = {
 			isa = PBXGroup;
 			children = (
-				65916F0D2C952FC4005C8462 /* Backup.swift */,
-				65916F0E2C952FC4005C8462 /* MBDB.swift */,
-				65916F0F2C952FC4005C8462 /* README.txt */,
+				65916F0F2C952FBC005C8462 /* README.txt */,
 			);
 			name = SparseRestore;
 			path = SparseBox/Sources/SparseRestore;
@@ -1565,3 +1555,4 @@
 	};
 	rootObject = 656C14A12C2D32D60017F279 /* Project object */;
 }
+
