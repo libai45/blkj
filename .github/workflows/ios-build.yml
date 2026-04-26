@@ -10,6 +10,7 @@ jobs:
     runs-on: macos-15
 
     env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       SCHEME: purekfd
       PROJECT: PureKFD.xcodeproj
       CONFIGURATION: Release
@@ -18,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Select Xcode
         run: |
