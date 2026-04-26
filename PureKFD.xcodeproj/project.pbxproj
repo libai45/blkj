@@ -1101,7 +1101,7 @@
 				DEVELOPMENT_TEAM = 6Q625HQD73;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = Shared/SparseBox/include;
+				HEADER_SEARCH_PATHS = SparseBox/include;
 				INFOPLIST_FILE = purekfd/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PureKFD;
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = unsandbox;
