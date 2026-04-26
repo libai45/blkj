@@ -241,7 +241,7 @@
 		65916F422C9542E8005C8462 /* libEMProxy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libEMProxy.dylib; path = ../Libraries/libEMProxy.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		65916F442C9542F0005C8462 /* libimobiledevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.dylib; path = ../Libraries/libimobiledevice.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		65916F4D2C95595A005C8462 /* em_proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = em_proxy.swift; path = include/em_proxy.swift; sourceTree = "<group>"; };
-		65916F4F2C955960005C8462 /* minimuxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = minimuxer.swift; path = SparseBox/include/minimuxer.swift; sourceTree = "<group>"; };
+		65916F4F2C955960005C8462 /* minimuxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = minimuxer.swift; path = include/minimuxer.swift; sourceTree = "<group>"; };
 		65916F532C95596E005C8462 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftBridgeCore.swift; path = SparseBox/include/SwiftBridgeCore.swift; sourceTree = "<group>"; };
 		6595F33F2C9BDC7600F00BD6 /* DirectWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectWrite.swift; sourceTree = "<group>"; };
 		65ABD2D12C93D77C00DD01E8 /* TweakPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakPath.swift; sourceTree = "<group>"; };
@@ -486,7 +486,7 @@
 				65916F0F2C952FBC005C8462 /* README.txt */,
 			);
 			name = SparseRestore;
-			path = SparseBox/Sources/SparseRestore;
+			path = Sources/SparseRestore;
 			sourceTree = "<group>";
 		};
 		65916F172C9530EB005C8462 /* _NIOBase64 */ = {
