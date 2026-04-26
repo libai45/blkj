@@ -17,7 +17,10 @@ else
     echo "Building libraries for platform: $EFFECTIVE_PLATFORM_NAME"
 fi
 
-source ~/.zshrc
+if [ -f "$HOME/.zshrc" ]; then
+    source "$HOME/.zshrc"
+fi
+
 cd SparseBox
 
 /bin/sh get_libraries.sh
