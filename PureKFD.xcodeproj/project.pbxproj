@@ -119,14 +119,6 @@
 		6589F2152CB1E88200F742D8 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 6589F2142CB1E88200F742D8 /* Zip */; };
 		6589F2172CB1E88A00F742D8 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 6589F2162CB1E88A00F742D8 /* Zip */; };
 		658EBA052C3662E100826E0B /* ExploitHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658EBA042C3662DF00826E0B /* ExploitHandler.swift */; };
-		65916F0C2C952FBC005C8462 /* MobileDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F0A2C952FBC005C8462 /* MobileDevice.swift */; };
-		65916F2A2C9530EB005C8462 /* ByteBuffer-int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F1C2C9530EB005C8462 /* ByteBuffer-int.swift */; };
-		65916F2B2C9530EB005C8462 /* ByteBuffer-conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F192C9530EB005C8462 /* ByteBuffer-conversions.swift */; };
-		65916F2C2C9530EB005C8462 /* ByteBuffer-foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F242C9530EB005C8462 /* ByteBuffer-foundation.swift */; };
-		65916F2D2C9530EB005C8462 /* IntegerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F222C9530EB005C8462 /* IntegerTypes.swift */; };
-		65916F2E2C9530EB005C8462 /* ByteBuffer-lengthPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F1D2C9530EB005C8462 /* ByteBuffer-lengthPrefix.swift */; };
-		65916F2F2C9530EB005C8462 /* IntegerBitPacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F212C9530EB005C8462 /* IntegerBitPacking.swift */; };
-		65916F302C9530EB005C8462 /* ByteBuffer-multi-int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F1E2C9530EB005C8462 /* ByteBuffer-multi-int.swift */; };
 		65916F312C9530EB005C8462 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F162C9530EB005C8462 /* Base64.swift */; };
 		65916F322C9530EB005C8462 /* CircularBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F202C9530EB005C8462 /* CircularBuffer.swift */; };
 		65916F332C9530EB005C8462 /* ByteBuffer-hexdump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65916F1B2C9530EB005C8462 /* ByteBuffer-hexdump.swift */; };
@@ -221,28 +213,13 @@
 		657F802B2C9D23EA00EA91F8 /* MacDirtyCowSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacDirtyCowSwift.swift; sourceTree = "<group>"; };
 		657F802C2C9D23EA00EA91F8 /* Wrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrappers.swift; sourceTree = "<group>"; };
 		658EBA042C3662DF00826E0B /* ExploitHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploitHandler.swift; sourceTree = "<group>"; };
-		65916F0A2C952FBC005C8462 /* MobileDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevice.swift; sourceTree = "<group>"; };
 		65916F152C95301B005C8462 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
-		65916F162C9530EB005C8462 /* Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
-		65916F182C9530EB005C8462 /* ByteBuffer-aux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-aux.swift"; sourceTree = "<group>"; };
-		65916F192C9530EB005C8462 /* ByteBuffer-conversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-conversions.swift"; sourceTree = "<group>"; };
-		65916F1A2C9530EB005C8462 /* ByteBuffer-core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-core.swift"; sourceTree = "<group>"; };
-		65916F1B2C9530EB005C8462 /* ByteBuffer-hexdump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-hexdump.swift"; sourceTree = "<group>"; };
-		65916F1C2C9530EB005C8462 /* ByteBuffer-int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-int.swift"; sourceTree = "<group>"; };
-		65916F1D2C9530EB005C8462 /* ByteBuffer-lengthPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-lengthPrefix.swift"; sourceTree = "<group>"; };
-		65916F1E2C9530EB005C8462 /* ByteBuffer-multi-int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-multi-int.swift"; sourceTree = "<group>"; };
-		65916F1F2C9530EB005C8462 /* ByteBuffer-views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-views.swift"; sourceTree = "<group>"; };
-		65916F202C9530EB005C8462 /* CircularBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularBuffer.swift; sourceTree = "<group>"; };
-		65916F212C9530EB005C8462 /* IntegerBitPacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerBitPacking.swift; sourceTree = "<group>"; };
-		65916F222C9530EB005C8462 /* IntegerTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerTypes.swift; sourceTree = "<group>"; };
-		65916F242C9530EB005C8462 /* ByteBuffer-foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-foundation.swift"; sourceTree = "<group>"; };
-		65916F262C9530EB005C8462 /* PointerHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerHelpers.swift; sourceTree = "<group>"; };
 		65916F282C9530EB005C8462 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		65916F422C9542E8005C8462 /* libEMProxy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libEMProxy.dylib; path = ../Libraries/libEMProxy.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		65916F442C9542F0005C8462 /* libimobiledevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.dylib; path = ../Libraries/libimobiledevice.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		65916F4D2C95595A005C8462 /* em_proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = em_proxy.swift; path = ../include/em_proxy.swift; sourceTree = "<group>"; };
-		65916F4F2C955960005C8462 /* minimuxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = minimuxer.swift; path = ../include/minimuxer.swift; sourceTree = "<group>"; };
-		65916F532C95596E005C8462 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftBridgeCore.swift; path = ../include/SwiftBridgeCore.swift; sourceTree = "<group>"; };
+		65916F4D2C95595A005C8462 /* em_proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = em_proxy.swift; path = include/em_proxy.swift; sourceTree = "<group>"; };
+		65916F4F2C955960005C8462 /* minimuxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = minimuxer.swift; path = include/minimuxer.swift; sourceTree = "<group>"; };
+		65916F532C95596E005C8462 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftBridgeCore.swift; path = include/SwiftBridgeCore.swift; sourceTree = "<group>"; };
 		6595F33F2C9BDC7600F00BD6 /* DirectWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectWrite.swift; sourceTree = "<group>"; };
 		65ABD2D12C93D77C00DD01E8 /* TweakPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakPath.swift; sourceTree = "<group>"; };
 		65B18D4D2C418B4A002C6276 /* KFD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFD.swift; sourceTree = "<group>"; };
@@ -541,7 +518,7 @@
 				65916F282C9530EB005C8462 /* README.txt */,
 			);
 			name = SwiftNIO;
-			path = ../Sources/SwiftNIO;
+			path = Sources/SwiftNIO;
 			sourceTree = "<group>";
 		};
 		65916F492C955925005C8462 /* Import */ = {
@@ -798,30 +775,14 @@
 				65069B652C2E728000A309C2 /* RepoView.swift in Sources */,
 				656C14C72C2D3DF00017F279 /* RepoHandler.swift in Sources */,
 				656C14DA2C2DC1680017F279 /* Package.swift in Sources */,
-				65916F2A2C9530EB005C8462 /* ByteBuffer-int.swift in Sources */,
 				6595F3402C9BDC7800F00BD6 /* DirectWrite.swift in Sources */,
-				65916F2B2C9530EB005C8462 /* ByteBuffer-conversions.swift in Sources */,
-				65916F2C2C9530EB005C8462 /* ByteBuffer-foundation.swift in Sources */,
-				65916F2D2C9530EB005C8462 /* IntegerTypes.swift in Sources */,
-				65916F2E2C9530EB005C8462 /* ByteBuffer-lengthPrefix.swift in Sources */,
-				65916F2F2C9530EB005C8462 /* IntegerBitPacking.swift in Sources */,
-				65916F302C9530EB005C8462 /* ByteBuffer-multi-int.swift in Sources */,
 				65916F312C9530EB005C8462 /* Base64.swift in Sources */,
-				65916F322C9530EB005C8462 /* CircularBuffer.swift in Sources */,
-				65916F332C9530EB005C8462 /* ByteBuffer-hexdump.swift in Sources */,
-				65916F342C9530EB005C8462 /* ByteBuffer-core.swift in Sources */,
-				65916F352C9530EB005C8462 /* PointerHelpers.swift in Sources */,
-				65916F4E2C95595A005C8462 /* em_proxy.swift in Sources */,
-				65916F362C9530EB005C8462 /* ByteBuffer-views.swift in Sources */,
-				65916F372C9530EB005C8462 /* ByteBuffer-aux.swift in Sources */,
 				65C073842C2E57200038E045 /* ImageHandling.swift in Sources */,
 				658EBA052C3662E100826E0B /* ExploitHandler.swift in Sources */,
-				65916F542C95596E005C8462 /* SwiftBridgeCore.swift in Sources */,
 				6576F8B02C33CA9E00678715 /* Debug.swift in Sources */,
 				65619DAD2C920C0500BEE096 /* prefTranslate.swift in Sources */,
 				65619DB12C920C2A00BEE096 /* PrefCreator.swift in Sources */,
 				65069B702C2FCAB500A309C2 /* Compat.swift in Sources */,
-				65916F502C955960005C8462 /* minimuxer.swift in Sources */,
 				656C14C02C2D36AC0017F279 /* InstalledView.swift in Sources */,
 				65069B6C2C2F3BF400A309C2 /* AppData.swift in Sources */,
 				650607AB2C94772F00E1848C /* TweakTranslate.swift in Sources */,
@@ -839,7 +800,6 @@
 				657F80322C9D23EA00EA91F8 /* vm_unaligned_copy_switch_race.c in Sources */,
 				657F80332C9D23EA00EA91F8 /* helpers.m in Sources */,
 				65C073862C2E58B30038E045 /* ColorExtensions.swift in Sources */,
-				65916F0C2C952FBC005C8462 /* MobileDevice.swift in Sources */,
 				65619DAF2C920C1600BEE096 /* purePrefs.swift in Sources */,
 				65D3A1DF2C37137200C4A071 /* DeviceInfo.swift in Sources */,
 				650607A52C9474B200E1848C /* SparseRestore.swift in Sources */,
